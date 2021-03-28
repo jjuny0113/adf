@@ -18,8 +18,6 @@ class Matrix {
     this.row = row;
     this.col = col;
     this.matrix = [];
-    this.createdIsland = [];
-    this.deletedIsland = [];
     this.pointerCol = 0;
     this.pointerRow = 0;
     this.ableLocateIsland = this.row * this.col;
