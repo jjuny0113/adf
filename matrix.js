@@ -76,7 +76,7 @@ class Matrix {
         this.pointerRow = this.row - 1;
         this.matrix[this.pointerCol][this.pointerRow] = 0;
       } else if (this.pointerRow === 0) {
-        this.matrix[this.pointerCol - 1][this.col - 1] = 0;
+        this.matrix[this.pointerCol - 1][this.row - 1] = 0;
         this.pointerCol--;
         this.pointerRow = this.row - 1;
       } else {
